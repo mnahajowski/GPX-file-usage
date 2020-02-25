@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 2.8)
+project(physics_charts_gui C)
+set(CMAKE_C_FLAGS "-std=gnu99 ${CMAKE_C_FLAGS}")
+
+find_package(PkgConfig REQUIRED)
+
+pkg_check_modules(GTK3 REQUIRED gtk+-3.0)
+include_directories(${GTK3_INCLUDE_DIRS})
+link_directories(${GTK3_LIBRARY_DIRS})
+
+pkg_check_modules(LIBXML2 REQUIRED libxml-2.0)
+include_directories(${LIBXML2_INCLUDE_DIRS})
+link_directories(${LIBXML2_LIBRARY_DIRS})
+
+add_definitions(${GTK3_CFLAGS_OTHER})
+add_definitions(${LIBXML2_CFLAGS_OTHER})
+
+add_executable(physics_charts_gui main.c gpx_point.h gpx_parser.h gpx_parser.c latlon_convert.h path_point.h latlon_convert.c gpx_file.h path_segment.h path.h path_generator.h path_generator.c path_conditions.h)
+
+target_link_libraries(physics_charts_gui ${GTK3_LIBRARIES})
+target_link_libraries(physics_charts_gui ${LIBXML2_LIBRARIES})
+target_link_libraries(physics_charts_gui slope)
+target_link_libraries(physics_charts_gui m)

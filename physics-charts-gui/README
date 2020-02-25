@@ -1,0 +1,6 @@
+# Physics Charts GUI
+
+## Requirements
+- libxml2
+- GTK 3
+- https://github.com/bytebrew/slope

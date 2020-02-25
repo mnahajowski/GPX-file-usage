@@ -1,0 +1,15 @@
+/usr/lib/libslope.so
+/usr/include/slope/sampler.h
+/usr/include/slope/drawing.h
+/usr/include/slope/legend.h
+/usr/include/slope/view.h
+/usr/include/slope/xyaxis.h
+/usr/include/slope/chart.h
+/usr/include/slope/figure.h
+/usr/include/slope/global.h
+/usr/include/slope/slope.h
+/usr/include/slope/xyscale.h
+/usr/include/slope/item.h
+/usr/include/slope/scale.h
+/usr/include/slope/xyseries.h
+/usr/include/slope/config.h

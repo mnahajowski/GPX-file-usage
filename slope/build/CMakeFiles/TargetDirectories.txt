@@ -1,0 +1,5 @@
+/home/marcin/Pobrane/Telegram Desktop/slope/build/demos/CMakeFiles/animation.dir
+/home/marcin/Pobrane/Telegram Desktop/slope/build/demos/CMakeFiles/plot_stack.dir
+/home/marcin/Pobrane/Telegram Desktop/slope/build/demos/CMakeFiles/simple.dir
+/home/marcin/Pobrane/Telegram Desktop/slope/build/slope/CMakeFiles/slope.dir
+/home/marcin/Pobrane/Telegram Desktop/slope/build/demos/CMakeFiles/widgets.dir

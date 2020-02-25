@@ -1,0 +1,1 @@
+/home/marcin/Pulpit/projekt_3/physics-charts-gui/build/CMakeFiles/physics_charts_gui.dir
